@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="INSERT_OR_UPDATE">
+        <before>false</before>
+        <description/>
+        <name>glideRecord</name>
+        <record_for_rollback>false</record_for_rollback>
+        <script><![CDATA[// 1. Create an object to store rows from a table
+var myObj = new GlideRecord('table_name');
+
+// 2. Build query
+myObj.addQuery('field_name','operator','value');
+myObj.addQuery('field_name','operator','value');
+
+// 3. Execute query 
+myObj.query();
+
+// 4. Process returned records
+while(myObj.next()){
+  //Logic you want to execute.  
+  //Use myObj.field_name to reference record fields
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-19 18:45:51</sys_created_on>
+        <sys_id>234fa45f078101106588fc289c1ed0b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glideRecord</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_fix_234fa45f078101106588fc289c1ed0b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-19 18:45:51</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+</record_update>
