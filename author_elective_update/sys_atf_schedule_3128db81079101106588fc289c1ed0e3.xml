@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_schedule">
+    <sys_atf_schedule action="DELETE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <description>This schedule will perform the following actions:
+
+Run suite 'NeedIt App' on a system with this configuration:
+Edge browser on any version
+Any operating system on any version
+
+Run suite 'NeedIt App' on a system with this configuration:
+Chrome browser on any version
+Windows operating system on any version</description>
+        <entered_time/>
+        <name>Demo of Scheduling the client suites</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2022-01-25 17:19:52</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[new global.ScheduledTestProcessor().executeScheduledSuites('3128db81079101106588fc289c1ed0e3');]]></script>
+        <sys_class_name>sys_atf_schedule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-25 17:20:19</sys_created_on>
+        <sys_id>3128db81079101106588fc289c1ed0e3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Demo of Scheduling the client suites</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_schedule_3128db81079101106588fc289c1ed0e3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-25 17:25:55</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sys_atf_schedule>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>1ca33163db5dc0949df22f17d496195f</instance_id>
+        <instance_name>dev95409</instance_name>
+        <name>sys_atf_schedule_3128db81079101106588fc289c1ed0e3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_atf_schedule"&gt;&lt;sys_atf_schedule action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;business_calendar/&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;description&gt;This schedule will perform the following actions:
+
+Run suite 'NeedIt App' on a system with this configuration:
+Edge browser on any version
+Any operating system on any version
+
+Run suite 'NeedIt App' on a system with this configuration:
+Chrome browser on any version
+Windows operating system on any version&lt;/description&gt;&lt;entered_time/&gt;&lt;name&gt;Demo of Scheduling the client suites&lt;/name&gt;&lt;offset/&gt;&lt;offset_type&gt;0&lt;/offset_type&gt;&lt;run_as display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;&lt;run_period/&gt;&lt;run_start&gt;2022-01-25 17:19:52&lt;/run_start&gt;&lt;run_time&gt;1970-01-01 08:00:00&lt;/run_time&gt;&lt;run_type&gt;daily&lt;/run_type&gt;&lt;script&gt;&lt;![CDATA[new global.ScheduledTestProcessor().executeScheduledSuites('3128db81079101106588fc289c1ed0e3');]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_atf_schedule&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-25 17:20:19&lt;/sys_created_on&gt;&lt;sys_id&gt;3128db81079101106588fc289c1ed0e3&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Demo of Scheduling the client suites&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_atf_schedule_3128db81079101106588fc289c1ed0e3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-25 17:25:55&lt;/sys_updated_on&gt;&lt;time_zone/&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/sys_atf_schedule&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1270557962</payload_hash>
+        <record_name>Demo of Scheduling the client suites</record_name>
+        <reverted_from/>
+        <source>4f14848f078101106588fc289c1ed016</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-25 17:25:55</sys_created_on>
+        <sys_id>a6891f45079101106588fc289c1ed0ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e9245ce5d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-25 17:25:55</sys_updated_on>
+        <type>Suite Schedule</type>
+        <update_guid>ae891f459d9101107161e5a80bd0c1ed</update_guid>
+        <update_guid_history>ae891f459d9101107161e5a80bd0c1ed:1270557962,f69813458d91011026ef4ff4bdaad5a3:1104264999,a848dbc11b910110fba81968971037a0:1724736903</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-25 17:34:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_schedule">sys_atf_schedule</sys_db_object>
+        <sys_id>3b51fd52430e435896b243ddd7bdc7e9</sys_id>
+        <sys_metadata>3128db81079101106588fc289c1ed0e3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo of Scheduling the client suites</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_schedule_3128db81079101106588fc289c1ed0e3</sys_update_name>
+        <sys_update_version display_value="sys_atf_schedule_3128db81079101106588fc289c1ed0e3">a6891f45079101106588fc289c1ed0ee</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-25 17:34:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

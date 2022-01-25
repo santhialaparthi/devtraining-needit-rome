@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Navigate to the 'Create New' module in the 'NeedIt' application</description>
+        <display_name>Navigate to Module</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <snapshot/>
+        <step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-24 23:53:25</sys_created_on>
+        <sys_id>64a6a374079501106588fc289c1ed0cd</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Navigate to Module</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_64a6a374079501106588fc289c1ed0cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-25 00:09:48</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <test display_value="Create NeedIt Module">dda32bb0079501106588fc289c1ed02b</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=64a6a374079501106588fc289c1ed0cd"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>64a6a374079501106588fc289c1ed0cd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-24 23:53:25</sys_created_on>
+        <sys_id>05a82374079501106588fc289c1ed0c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-24 23:53:25</sys_updated_on>
+        <value>4fdfc45d0fe83200cd674f8ce1050e27</value>
+        <variable display_value="Module">b6d2b40c73720300c79260bdfaf6a786</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_c832fc4073720300c79260bdfaf6a7a0^id=64a6a374079501106588fc289c1ed0cd"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>1ca33163db5dc0949df22f17d496195f</instance_id>
+        <instance_name>dev95409</instance_name>
+        <name>sys_atf_step_64a6a374079501106588fc289c1ed0cd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Navigate to the 'Create New' module in the 'NeedIt' application</description><display_name>Navigate to Module</display_name><inputs/><mugshots_cache_json/><notes/><order>2</order><snapshot/><step_config display_value="Navigate to Module">c832fc4073720300c79260bdfaf6a7a0</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 23:53:25</sys_created_on><sys_id>64a6a374079501106588fc289c1ed0cd</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Navigate to Module</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_64a6a374079501106588fc289c1ed0cd</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-25 00:09:48</sys_updated_on><table>x_58872_needit_needit</table><test display_value="Create NeedIt Module">dda32bb0079501106588fc289c1ed02b</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=64a6a374079501106588fc289c1ed0cd"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>64a6a374079501106588fc289c1ed0cd</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-01-24 23:53:25</sys_created_on><sys_id>05a82374079501106588fc289c1ed0c2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-01-24 23:53:25</sys_updated_on><value>4fdfc45d0fe83200cd674f8ce1050e27</value><variable display_value="Module">b6d2b40c73720300c79260bdfaf6a786</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_c832fc4073720300c79260bdfaf6a7a0^id=64a6a374079501106588fc289c1ed0cd"/></record_update>]]></payload>
+        <payload_hash>-1783979780</payload_hash>
+        <record_name>Navigate to Module</record_name>
+        <reverted_from/>
+        <source>4f14848f078101106588fc289c1ed016</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-25 00:09:48</sys_created_on>
+        <sys_id>856ce7b8079501106588fc289c1ed00b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e8e9137a90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-25 00:09:48</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>8d6ce7b8d59501107942624e3b6abb0a</update_guid>
+        <update_guid_history>8d6ce7b8d59501107942624e3b6abb0a:-1783979780,c0592bf4679501109f8746a527c59f24:-519610691,8da8237452950110f2daf84db5da80c3:-1783979780</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-25 00:10:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>3aafe90030994fb0a6f8f6232f6c9d84</sys_id>
+        <sys_metadata>64a6a374079501106588fc289c1ed0cd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Navigate to Module</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_64a6a374079501106588fc289c1ed0cd</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_64a6a374079501106588fc289c1ed0cd">856ce7b8079501106588fc289c1ed00b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-25 00:10:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
